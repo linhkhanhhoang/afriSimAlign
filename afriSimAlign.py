@@ -15,7 +15,7 @@ from nltk.tokenize import word_tokenize
 import seaborn
 
 class SimilarityAlign(object):
-  def __init__(self, model: str="bert-base-multilingual-cased", device: str="cuda", layer: int=8, heatmap=False):
+  def __init__(self, model: str="Davlan/afro-xlmr-base", device: str="cuda", layer: int=8, heatmap=False):
     self.model = model
     self.device = device
     self.layer = layer
